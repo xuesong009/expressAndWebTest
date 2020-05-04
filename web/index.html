@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <!-- 字符编码格式 -->
+  <meta charset="UTF-8">
+  <!-- 浏览器兼容,让IE使用最新的渲染引擎工作 -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <title>myServer</title>
+  <!-- reset css -->
+  <link rel="stylesheet" href="./libs/reset.css">
+  <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+  <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+  <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+  <!-- index.css -->
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+  <div class="test">
+    <div class="buttonGroup clearfix">
+      <div class="title btn f_left active" role="Button" aria-label="get Male info" data-gender="Male">Male</div>
+      <div class="title btn f_left" role="Button" aria-label="get FeMale info" data-gender="Female">FeMale</div>
+    </div>
+    <ul></ul>
+  </div>
+
+  <!-- utils.js -->
+  <script src="./js/utils/utils.js"></script>
+  <!-- index.js -->
+  <script src="./js/index.js"></script>
+</body>
+</html>
