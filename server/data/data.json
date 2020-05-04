@@ -1,0 +1,36 @@
+{
+  "classInfo": {
+    "name": "web170918",
+    "type": "web",
+    "num": 16
+  },
+  "students": [{
+    "name": "周一帆",
+    "age": 25,
+    "gender": "male"
+  }, {
+    "name": "吴子旭",
+    "age": 23,
+    "gender": "male"
+  }, {
+    "name": "许志明",
+    "age": 27,
+    "gender": "male"
+  }, {
+    "name": "徐柳",
+    "age": 18,
+    "gender": "female"
+  }, {
+    "name": "葫芦娃",
+    "age": 29,
+    "gender": "female"
+  }, {
+    "name": "马静",
+    "age": 19,
+    "gender": "female"
+  }, {
+    "name": "刘浩然",
+    "age": 34,
+    "gender": "female"
+  }]
+}
